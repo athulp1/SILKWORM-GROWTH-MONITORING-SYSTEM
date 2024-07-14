@@ -71,7 +71,34 @@ overall monitoring efficiency and user experience.
 
 ## Flowchart
 
-![Refernce Circuit]()
+![Refernce Circuit](https://github.com/athulp1/SILKWORM-GROWTH-MONITORING-SYSTEM/blob/main/flowchart.png)
+
+- The flowchart illustrates the process of data collection and transmission in our project.
+Starting with the ESP32 microcontroller, which serves as the central hub, data is gathered from
+five sensors: MQ5 for air quality, DHT11 for temperature and humidity, LDR for light levels,
+an ultrasonic sensor for detecting insect presence, and a PIR sensor for detecting silkworm motion.
+- Each sensor provides specific environmental data: MQ5 measures air quality, DHT11
+monitors temperature and humidity, LDR gauges light intensity, the ultrasonic sensor detects
+insect presence through distance measurement, and the PIR sensor monitors silkworm movement.
+- These sensor readings are then communicated to the Serial Monitor for real-time observation and debugging if needed. Simultaneously, the data is transmitted to Blynk Cloud for
+secure storage and further analysis.
+- This flowchart showcases the seamless flow of data from sensors to the ESP32, and
+then onwards to both the Serial Monitor and Blynk Cloud, ensuring efficient monitoring and
+management of environmental conditions for optimal silkworm growth.
+
+## Arduino Code Setup
+
+1. Install the Arduino IDE and required libraries.
+2. Open the Arduino IDE and upload the provided SmartGlow_ESP8266.ino sketch to your NodeMCU ESP32.
+
+## Results
+The desired objective has been successfully achieved: the Sensor Hub's envisioned product now accurately presents temperature and humidity readings, as well as air quality (pollution) levels and light intensity. Moreover, all this valuable data is securely stored in the cloud, ensuring accessibility and reliability for users.
+
+![Refernce Circuit](https://github.com/athulp1/SILKWORM-GROWTH-MONITORING-SYSTEM/blob/main/result.png)
+
+## Contact
+For any inquiries or issues, please contact Sunil Kanaki at athulpujari96@gmail.com
+
 
 
 
