@@ -36,4 +36,47 @@ conducive to healthy growth and development throughout the silkworm life cycle.
 
 ## Implementaion of the model
 
-![Refernce Circuit](https://github.com/athulp1/SENSOR_HUB-IoT-miniproject/blob/main/a2.png)
+![Refernce Circuit](https://github.com/athulp1/SILKWORM-GROWTH-MONITORING-SYSTEM/blob/main/IMPLEMENT.png)
+
+- The ESP32 microcontroller interfacing with various sensors to create a
+comprehensive silkworm growth monitoring system. The DHT11 measures temperature and
+humidity, the MQ-35 detects gas concentrations, the LDR senses light levels, the PIR identifies
+motion, and an ultrasonic sensor measures distance.
+These sensors connect to the ESP32 via its GPIO pins, with the ESP32 reading and
+processing each sensor’s data. The DHT11 provides crucial information on temperature and
+humidity, the MQ-35 ensures air quality by detecting gas concentrations, the LDR measures
+light intensity, the PIR monitors silkworm activity, and the ultrasonic sensor detects insect
+presence and movement.
+- After processing the data, the ESP32 transmits the information to the Blynk cloud
+platform over Wi-Fi. This allows for real-time monitoring and data logging, with users visualizing
+and managing the data remotely via the Blynk mobile app. Instant notifications and updates
+enable proactive adjustments to the environment as needed.
+- This setup integrates hardware and software seamlessly, offering an efficient solution
+for environmental monitoring. Leveraging the ESP32 and the connected sensors, the system
+provides comprehensive insights and control, optimizing conditions for silkworm growth.
+
+
+## Functional Block Diagram
+
+![Refernce Circuit](https://github.com/athulp1/SILKWORM-GROWTH-MONITORING-SYSTEM/blob/main/BD.png)
+
+Above image showcases the IoT-based silkworm growth monitoring system, employing an ESP32
+microcontroller to collect data from various sensors. These sensors include DHT11 for temperature
+and humidity, ultrasonic sensors for movement detection, PIR sensors for activity tracking, LDR
+sensors for light intensity, and MQ135 sensor for air quality. Data is analyzed for fan and light
+control, then seamlessly transmitted to Firebase Realtime Database Cloud, enabling user access
+via web and mobile apps with periodic updates and alerts for timely intervention, enhancing
+overall monitoring efficiency and user experience.
+
+
+## Flowchart
+
+
+
+
+
+
+
+
+
+
