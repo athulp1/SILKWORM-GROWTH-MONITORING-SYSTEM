@@ -34,3 +34,6 @@ conducive to healthy growth and development throughout the silkworm life cycle.
 | 13            | MQ-135      | 2        | 50         |
 | 14            | Breadboard  | 4        | 320        |
 
+## Implementaion of the model
+
+![Refernce Circuit](https://github.com/athulp1/SENSOR_HUB-IoT-miniproject/blob/main/a2.png)
