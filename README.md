@@ -86,6 +86,14 @@ secure storage and further analysis.
 then onwards to both the Serial Monitor and Blynk Cloud, ensuring efficient monitoring and
 management of environmental conditions for optimal silkworm growth.
 
+## Hardware Design
+-	Connect Sensors to ESP32: - Plug in temperature, humidity, pollution, motion and light level sensors to the ESP32 board and connect it to them
+- Write Code to Read Data: - Using Arduino to tell ESP32 how to read information from each sensor
+- Send Data to Cloud: - In your Arduino code, add instructions to send the recorded sensor data to your blynk cloud account
+- Cloud Stores Your Data: - The blynk cloud will store your data in a safe digital space
+
+![Refernce Circuit](https://github.com/athulp1/SILKWORM-GROWTH-MONITORING-SYSTEM/blob/main/FINAL.png)
+
 ## Arduino Code Setup
 
 1. Install the Arduino IDE and required libraries.
